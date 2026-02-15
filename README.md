@@ -88,3 +88,5 @@ error: could not compile `exercises` (bin "variables6") due to 1 previous error
 
 [Process exited 101]
 ```
+
+constは型注釈しなきゃいけない。[参考](https://doc.rust-jp.rs/book-ja/ch03-01-variables-and-mutability.html)
