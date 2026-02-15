@@ -13,6 +13,8 @@ Rustlingsを解いて、わからないところをメモしたり進捗を管�
 
 2026/02/15 00_intro finished
 
+2026/02/15 01_variables finished
+
 ## fix errors
 
 ### variables5.rs
@@ -90,3 +92,33 @@ error: could not compile `exercises` (bin "variables6") due to 1 previous error
 ```
 
 constは型注釈しなきゃいけない。[参考](https://doc.rust-jp.rs/book-ja/ch03-01-variables-and-mutability.html)
+
+### function01.rs
+
+次のコードを実行しようとすると
+
+```rust
+// TODO: Add some function with the name `call_me` without arguments or a return value.
+
+fn main() {
+    call_me(); // Don't change this line
+}
+```
+
+次のようなエラーが出る。
+
+```shell
+   Compiling exercises v0.0.0 (/home/doxaripo/projects/rustlings)
+error[E0425]: cannot find function `call_me` in this scope
+ --> exercises/02_functions/functions1.rs:4:5
+  |
+4 |     call_me(); // Don't change this line
+  |     ^^^^^^^ not found in this scope
+
+For more information about this error, try `rustc --explain E0425`.
+error: could not compile `exercises` (bin "functions1") due to 1 previous error
+
+[Process exited 101]
+```
+
+何も返さないcall_me関数を作ればいい
