@@ -19,6 +19,8 @@ Rustlingsを解いて、わからないところをメモしたり進捗を管�
 
 2026/02/16 03_if finished
 
+2026/02/16 04_primitive_types finished
+
 ## fix errors
 
 ### variables5.rs
