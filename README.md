@@ -15,6 +15,10 @@ Rustlingsを解いて、わからないところをメモしたり進捗を管�
 
 2026/02/15 01_variables finished
 
+2026/02/15 02_functions finished
+
+2026/02/16 03_if finished
+
 ## fix errors
 
 ### variables5.rs
