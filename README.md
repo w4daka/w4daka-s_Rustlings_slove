@@ -310,3 +310,7 @@ HashMap の操作では、すでにキーが存在しているときに insert �
 は一切変更されず、足りないフルーツだけがバスケットに追加されます。
 
 ---
+
+### quiz2.rs
+
+rustlingsのquiz2.rsをやっているのですが、全然わかりません。ヒントをください。codeはexercises/quizzes/quiz.rsです.
